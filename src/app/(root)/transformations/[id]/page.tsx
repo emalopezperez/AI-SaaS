@@ -1,9 +1,4 @@
-interface Params {
-  id: string;
-}
-
-const TranformationsPage = ({ params: { id } }: { params: Params }) => {
-  console.log(id);
+const TranformationsPage = () => {
   return <div>tranformations</div>;
 };
 
